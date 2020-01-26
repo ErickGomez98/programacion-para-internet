@@ -5,272 +5,492 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <title>CV</title>
   </head>
   <body>
     <header>
-      <div class="img-profile">
-        <img src="assets/img/profile.jpg" alt="Profile img" />
-      </div>
-      <div class="header">
-        <h1 class="header-title">Erick Gómez</h1>
-        <div class="header-subtitle">Junior Web Developer</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-4">
+            <div class="img-profile">
+              <img src="assets/img/profile.jpg" alt="Profile img" />
+            </div>
+          </div>
+          <div class="col-sm-9 col-8">
+            <div class="header">
+              <h1 class="header-title">Erick Gómez</h1>
+              <div class="header-subtitle">Junior Web Developer</div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
-    <div class="main-container">
-      <div class="main-descriptions">
-        <section>
-          <h3>Profile</h3>
-          <div class="description">
-            Web Developer with 3+ years of experience in developing web pages
-            and custom so ware using web technologies. <br />
-            I've worked in many projects, with very different requirements but
-            at the end the delivered so ware is a powerful web app that aims to
-            solve business problems and also helps to speed up the internal flow
-            of the business.
-          </div>
-        </section>
-
-        <section>
-          <h3>Employment History</h3>
-          <div class="element">
-            <div class="element-title">
-              Web Developer at Novitec, Guadalajara
-            </div>
-            <div class="element-dates">January 2016 – April 2016</div>
-            <div class="element-description">
-              Creation of multiple web pages using HTML5/CSS3, Javascript and
-              PHP.
-            </div>
-          </div>
-          <div class="element">
-            <div class="element-title">
-              Web Developer at Pc Partners, Guadalajara
-            </div>
-            <div class="element-dates">May 2016 – September 2019</div>
-            <div class="element-description">
-              My job is to develop a custom software that's meant to solve
-              specific problems of a customer's business using web technologies
-              such as Javascript (Jquery, React), PHP and Relational Databases
-              like MySQL.
-              <ul>
-                <li>
-                  I have to design the software architecture based on a previous
-                  interview with the customer to review the problems to be
-                  solved with the software.
-                </li>
-                <li>
-                  I have to develop all the software itself, including the
-                  frontend and the backend using the web technologies that best
-                  suit the project.
-                </li>
-                <li>
-                  Usually, the end software is a web app with authentication and
-                  authorization functionalities included, with all the necessary
-                  functions and characteristics needed to solve the specific
-                  customer's problem.
-                </li>
-              </ul>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-sm-6 col-12">
+          <div class="row">
+            <div class="col-12 section">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img src="assets/icons/person.svg" />
+                </div>
+                <div class="col-sm-2 col-3 align-self-center">
+                  <div class="section-title">Profile</div>
+                </div>
+                <div class="col-sm-8 col-6 align-self-center">
+                  <div class="dash"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-2 col-10">
+                  Web Developer with 3+ years of experience in developing web
+                  pages and custom so ware using web technologies. <br />
+                  I've worked in many projects, with very different requirements
+                  but at the end the delivered so ware is a powerful web app
+                  that aims to solve business problems and also helps to speed
+                  up the internal flow of the business.
+                </div>
+              </div>
             </div>
           </div>
-          <div class="element">
-            <div class="element-title">
-              Intern Backend Developer at Bosch México, Guadalajara
-            </div>
-            <div class="element-dates">September 2019 – Present</div>
-            <div class="element-description">
-              Backend development with NodeJS and Django
+          <div class="row">
+            <div class="col-12 section">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img src="assets/icons/people-fill.svg" alt="Profile Icon" />
+                </div>
+                <div class="col-sm-2 col-3 align-self-center">
+                  <div class="section-title">Contact</div>
+                </div>
+                <div class="col-sm-8 col-6 align-self-center">
+                  <div class="dash"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-2 col-10">
+                  <div>
+                    <img
+                      src="/assets/icons/envelope-fill.svg"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />erick0gomez98@gmail.com
+                  </div>
+                  <div>
+                    <img
+                      src="/assets/icons/phone.svg"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />3334840966
+                  </div>
+                  <div>
+                    <img
+                      src="/assets/icons/house-fill.svg"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />Guadalajara, México
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-
-        <section>
-          <h3>Education</h3>
-          <div class="element">
-            <div class="element-title">
-              Graduate, Preparatoria No.12, Guadalajara
-            </div>
-            <div class="element-dates">August 2013 – June 2016</div>
-            <div class="element-description">
-              Outstanding grades at the programming class.
+          <div class="row">
+            <div class="col-12 section">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img src="assets/icons/star-fill.svg" alt="Profile Icon" />
+                </div>
+                <div class="col-sm-2 col-3 align-self-center">
+                  <div class="section-title">Skills</div>
+                </div>
+                <div class="col-sm-8 col-6 align-self-center">
+                  <div class="dash"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-2 col-10">
+                  <div class="row my-2">
+                    <div class="col-4">Javascript</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">Node JS</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">React</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">Typescript</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">Python</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 50%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">PHP</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">MySQL</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">PostgreSQL</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">REST API</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">GraphQL</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 50%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">Git</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">AWS</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">HTML5</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">CSS</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">Linux</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 50%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">Drupal</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col-4">Microsoft Office Suite</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="element">
-            <div class="element-title">
-              Computer Engineer, Universidad de Guadalajara, Guadalajara
-            </div>
-            <div class="element-dates">January 2017 – Present</div>
-            <div class="element-description">
-              Currently studying my career, half time school and half time job.
+        </div>
+        <div class="col-sm-6 col-12">
+          <div class="row">
+            <div class="col-12 section">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img
+                    src="assets/icons/document-richtext.svg"
+                    alt="Profile Icon"
+                  />
+                </div>
+                <div class="col-sm-4 col-5 align-self-center">
+                  <div class="section-title">Employment</div>
+                </div>
+                <div class="col-sm-6 col-4 align-self-center">
+                  <div class="dash"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-2 col-10">
+                  <div class="element">
+                    <div class="element-title">
+                      Web Developer at Novitec, Guadalajara
+                    </div>
+                    <div class="element-dates">January 2016 – April 2016</div>
+                    <div class="element-description">
+                      Creation of multiple web pages using HTML5/CSS3,
+                      Javascript and PHP.
+                    </div>
+                  </div>
+                  <div class="element">
+                    <div class="element-title">
+                      Web Developer at Pc Partners, Guadalajara
+                    </div>
+                    <div class="element-dates">May 2016 – September 2019</div>
+                    <div class="element-description">
+                      My job is to develop a custom software that's meant to
+                      solve specific problems of a customer's business using web
+                      technologies such as Javascript (Jquery, React), PHP and
+                      Relational Databases like MySQL.
+                      <ul>
+                        <li>
+                          I have to design the software architecture based on a
+                          previous interview with the customer to review the
+                          problems to be solved with the software.
+                        </li>
+                        <li>
+                          I have to develop all the software itself, including
+                          the frontend and the backend using the web
+                          technologies that best suit the project.
+                        </li>
+                        <li>
+                          Usually, the end software is a web app with
+                          authentication and authorization functionalities
+                          included, with all the necessary functions and
+                          characteristics needed to solve the specific
+                          customer's problem.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="element">
+                    <div class="element-title">
+                      Intern Backend Developer at Bosch México, Guadalajara
+                    </div>
+                    <div class="element-dates">September 2019 – Present</div>
+                    <div class="element-description">
+                      Backend development with NodeJS and Django
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-
-        <section>
-          <h3>Courses</h3>
-          <div class="element">
-            <div class="element-title">
-              AWS Certified Solutions Architect, Udemy
+          <div class="row">
+            <div class="col-12 section">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img src="assets/icons/book.svg" alt="Profile Icon" />
+                </div>
+                <div class="col-sm-3 col-4 align-self-center">
+                  <div class="section-title">Education</div>
+                </div>
+                <div class="col-sm-7 col-5 align-self-center">
+                  <div class="dash"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-2 col-10">
+                  <div class="element">
+                    <div class="element-title">
+                      Graduate, Preparatoria No.12, Guadalajara
+                    </div>
+                    <div class="element-dates">August 2013 – June 2016</div>
+                    <div class="element-description">
+                      Outstanding grades at the programming class.
+                    </div>
+                  </div>
+                  <div class="element">
+                    <div class="element-title">
+                      Computer Engineer, Universidad de Guadalajara, Guadalajara
+                    </div>
+                    <div class="element-dates">January 2017 – Present</div>
+                    <div class="element-description">
+                      Currently studying my career, half time school and half
+                      time job.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="element-dates">May 2018 – June 2018</div>
           </div>
-          <div class="element">
-            <div class="element-title">
-              React and Node JS, Udemy
+          <div class="row">
+            <div class="col-12 section">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img src="assets/icons/book.svg" alt="Profile Icon" />
+                </div>
+                <div class="col-sm-3 col-4 align-self-center">
+                  <div class="section-title">Languages</div>
+                </div>
+                <div class="col-sm-7 col-5 align-self-center">
+                  <div class="dash"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-2 col-10">
+                  <div class="row my-2">
+                    <div class="col-4">English</div>
+                    <div class="col-8">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="element-dates">July 2018 – August 2018</div>
           </div>
-        </section>
+          <div class="row">
+            <div class="col-12 section">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img src="assets/icons/book.svg" alt="Profile Icon" />
+                </div>
+                <div class="col-sm-3 col-4 align-self-center">
+                  <div class="section-title">Hobbies</div>
+                </div>
+                <div class="col-sm-7 col-5 align-self-center">
+                  <div class="dash"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-2 col-10">
+                  SimRacing, Discover and learn new web technologies.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <aside>
-        <div class="element">
-          <div class="element-title">
-            Details
-          </div>
-          <div class="element-description">
-            Guadalajara, México, 3334840966
-            <a href="mailto:erick0gomez98@gmail.com">erick0gomez98@gmail.com</a>
-          </div>
-        </div>
-        <div class="element">
-          <div class="element-title">
-            Links
-          </div>
-          <div class="element-description">
-            <a href="https://github.com/ErickGomez98/" target="_blank"
-              >Github</a
-            >
-          </div>
-        </div>
-        <div class="element">
-          <div class="element-title">
-            Skills
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Javascript</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Node JS</div>
-            <div class="skill-bar">
-              <div class="skill-70"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">React</div>
-            <div class="skill-bar">
-              <div class="skill-70"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Typescript</div>
-            <div class="skill-bar">
-              <div class="skill-70"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Python</div>
-            <div class="skill-bar">
-              <div class="skill-50"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">PHP</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">MySQL</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">PostgreSQL</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">REST API</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">GraphQL</div>
-            <div class="skill-bar">
-              <div class="skill-50"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Git</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">AWS</div>
-            <div class="skill-bar">
-              <div class="skill-70"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">HTML5</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">CSS</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Linux Administration</div>
-            <div class="skill-bar">
-              <div class="skill-50"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Drupal</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">Microsoft Office Suite</div>
-            <div class="skill-bar">
-              <div class="skill-70"></div>
-            </div>
-          </div>
-        </div>
-        <div class="element">
-          <div class="element-title">
-            Languages
-          </div>
-          <div class="element-skill">
-            <div class="skill-title">English</div>
-            <div class="skill-bar">
-              <div class="skill-80"></div>
-            </div>
-          </div>
-        </div>
-        <div class="element">
-          <div class="element-title">
-            Hobbies
-          </div>
-          <div class="element-description">
-            SimRacing, Discover and learn new web technologies.
-          </div>
-        </div>
-      </aside>
     </div>
   </body>
 </html>
