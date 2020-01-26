@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+:root {
+  --title-color: #2e2e2e;
+  --primary-color: #52abf2;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.52;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+.main-container {
+  display: flex;
+  margin: 10px;
+}
+
+.main-container .main-descriptions {
+  flex: 1 80%;
+}
+
+.main-container aside {
+  flex: 1 20%;
+}
+
+header {
+  margin: 40px 10px 20px 10px;
+  display: flex;
+}
+
+.img-profile {
+  margin-right: 20px;
+}
+
+h1,
+h3 {
+  color: var(--title-color);
+  margin: 0;
+}
+
+.description,
+.element {
+  margin: 5px 0 5px 15px;
+}
+
+.header {
+  flex: 1 80%;
+}
+
+.img-profile img {
+  border-radius: 20%;
+  width: 80px;
+}
+
+.element-title {
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.element-dates {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.main-descriptions section {
+  margin: 20px 0;
+}
+
+.element-skill {
+  margin: 10px 0;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 5px;
+  display: block;
+  background-color: #e3e3ee;
+  border: 1px solid #b9b9b9;
+}
+.skill-80 {
+  width: 80%;
+  background: var(--primary-color);
+  height: 5px;
+  display: block;
+}
+
+.skill-70 {
+  width: 70%;
+  background: var(--primary-color);
+  height: 5px;
+  display: block;
+}
+.skill-50 {
+  width: 50%;
+  background: var(--primary-color);
+  height: 5px;
+  display: block;
+}
